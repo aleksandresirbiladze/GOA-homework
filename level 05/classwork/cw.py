@@ -1,16 +1,16 @@
 #1
 greeting = "Hello"
-userName = "student"
+#userName = "student"
 #age = 20
-location = "New York"
+#location = "New York"
 
 #2
-username = "aleksandre"
+#username = "aleksandre"
 print('Welcome, ' + username + "!" ) 
 print(greeting + ", " + username + "!") 
 
 #3
-age = 12
+#age = 12
 print("Your age is " + age)  
 print("In 5 years, you will be " + age + 5 + " years old") 
 
@@ -33,17 +33,20 @@ firstName = "John"
 print("Hello, " + "first" + " " + "lastName" + "!")
 
 #8
-nickname = "Ace
+nickname = "Ace"
 print("Your nickname is: " + nickname)
 
 #9
-print("The length of your location is " + len(location))
+location = "tbilisi"
+print("The length of your location is " + location)
 
 #10
 year = 2024
-print("Next year is " + year + 1)
-print("Your age next year will be " + age + 1)
+age = 9
+print("Next year is " + str(year) + str(1))
+print("Your age next year will be " + str(age) + str(1))
 
 #11
+username = "aleksandre"
 farewell = "Goodbye"
-print(FareWell, username + "! See you next time.")
+print(farewell, username + "! See you next time.")
